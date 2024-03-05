@@ -1,3 +1,36 @@
-body{
+body {
     font-family: "Vazirmatn", sans-serif !important;
+    background-color: rgba(212, 212, 212, 0.616) !important;
 }
+
+
+
+
+/* start خدمات ما در حوضه  */
+.hes {
+    height: 250px !important;
+    border-radius: 10px;
+    padding-top: 10px;
+    transition-duration: 1 s;
+    background-color: rgba(189, 219, 226, 0.404) !important;
+}
+.hes:hover {
+    background-color: rgb(212, 212, 212) !important;
+}
+
+.hes:hover .imgm {
+    animation: shake 0.2s infinite alternate;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+/* end  خدمات ما در حوضه  */
