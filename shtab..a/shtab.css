@@ -34,3 +34,17 @@ body {
     }
 }
 /* end  خدمات ما در حوضه  */
+
+
+/*start چرا  شتاپ */
+.nox{
+    transition: 0.3s;
+    box-shadow: 0 0 12px 2px rgb(189, 187, 187);
+}
+.nox:hover{
+
+    
+    background-color: rgb(203, 203, 204) !important;
+
+}
+/*end چرا  شتاپ */
